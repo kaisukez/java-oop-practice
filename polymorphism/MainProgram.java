@@ -6,17 +6,17 @@ public class MainProgram {
     Dog dog = new Dog();
     Cat cat = new Cat();
 
-    animal.MakeSound();
-    animalDog.MakeSound();
-    animalCat.MakeSound();
-    dog.MakeSound();
-    cat.MakeSound();
+    animal.makeSound();
+    animalDog.makeSound();
+    animalCat.makeSound();
+    dog.makeSound();
+    cat.makeSound();
 
     System.out.println();
 
     // animalDog.DogMethod();
     // animalCat.CatMethod();
-    dog.DogMethod();
-    cat.CatMethod();
+    dog.dogMethod();
+    cat.catMethod();
   }
 }

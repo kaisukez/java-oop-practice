@@ -1,9 +1,9 @@
 public class Dog extends Animal {
-  public void MakeSound() {
+  public void makeSound() {
     System.out.println("Dog Sound!");
   }
 
-  public void DogMethod() {
+  public void dogMethod() {
     System.out.println("Dog Method");
   }
 }

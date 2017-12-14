@@ -1,6 +1,6 @@
 public class Animal {
   private String name;
-  public void MakeSound() {
+  public void makeSound() {
     System.out.println("Animal Sound!");
   }
 }
