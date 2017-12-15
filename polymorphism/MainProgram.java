@@ -9,7 +9,7 @@ public class MainProgram {
     cat.makeSound(); // from Cat
 
     cat.sayMeow(); // say meow!
-    animalCat.sayMeow(); // compile error
-    animal.sayMeow(); // compile error
+    // animalCat.sayMeow(); // compile error
+    // animal.sayMeow(); // compile error
   }
 }
