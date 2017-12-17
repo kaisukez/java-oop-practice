@@ -25,7 +25,4 @@ public abstract class BasicSuperHero implements SuperHero {
   public void moveTo(int[] position) {
     this.position = position;
   }
-
-  public abstract void specialAttack();
-  public abstract void boostPower(int value);
 }
